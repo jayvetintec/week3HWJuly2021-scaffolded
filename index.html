@@ -5,8 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fallout Memory Game</title>
+    <title>Ritter Fallout Memory Game</title>
+
     <!-- TODO: Connect the given styles file to this HTML -->
+    <link rel="stylesheet" href="./styles/styles.css">
+
 </head>
 <body>
     <div class="container">
@@ -38,9 +41,30 @@
 
     <!-- Modal -->
     <section class="win-game-modal">
+
+        <div id="modal" class="modal">
+
+            <!-- modal content -->
+            <div class="modal-content">
+                <span id="close"> &times</span>
+                    <h2>You win!</h2>
+                <br>
+                <p>You won! You found all 8 pairs of cards!
+                    <img src="./img/Vault-Boy-Thumb-Up.jpg" alt="Vault-Boy-Thumb-Up">
+                </p>
+
+                <button type="button" class="btn play-again-btn" ></button>
+                
+
+            </div>
+            
+        </div>
+        
+
         
     </section>
-
+    
     <!-- TODO: Connect the given JS file to your HTML -->
+    <script type="theJavaScript" src="./js/index.js"></script>
 </body>
 </html>
